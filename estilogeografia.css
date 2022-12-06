@@ -1,0 +1,121 @@
+*{
+	list-style: none;
+}
+hr{
+	background-image: url(bueno3.jfif);
+}
+div{
+
+}
+.geo{
+	background-color: #bea74b;
+	width: 380px;
+	border-radius: 0% 34% 34% 0%;
+	height: 125px;
+}
+.imagen1{
+	margin-left: 550px;
+}
+.fondo{
+	background-color: #879200;
+	height: 100px;
+	font-size: 35px;
+	font-family: Elephant;
+	width: 400px;
+	border-radius: 0% 34% 34% 0%;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 500px;
+	padding-bottom: 17px;
+}
+.subti{
+	border: 2px solid #b57c00;
+	font-family: Castellar;
+	font-size: 30px;
+	background-color: #ecab0f;
+	height: 50px;
+	width: 250px;
+	padding: 0px 7px 10px 7px;
+	border-radius: 100% 100% 0% 0%;
+}
+.subti2{
+	border: 2px solid #b57c00;
+	font-family: Castellar;
+	font-size: 30px;
+	background-color: #ecab0f;
+	height: 150px;
+	width: 250px;
+	padding: 0px 7px 10px 7px;
+	border-radius: 100% 100% 0% 0%;
+}
+.informacion{
+	margin-left: 50px;
+	font-size: 17px;
+	text-align: justify;
+	font-weight: bold;
+	width: 1200px;
+	border: 2px solid #867416;
+	padding: 1em;
+	background-color: #f8de7e;
+
+}
+
+}
+.movimiento{
+	width: 25%;
+	margin: auto;
+	overflow: hidden;
+}
+.movimiento ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambios 20s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+}
+.movimiento li{
+	list-style: none;
+	width: 100%;
+}
+
+.movimiento img{
+	width: 25%;
+}
+@keyframes cambios{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{ margin-left: -100%; }
+	45%{ margin-left: -100%; }
+
+	50%{ margin-left: -200%; }
+	70%{ margin-left: -200%; }
+
+	75%{ margin-left: -300%; }
+	100%{ margin-left: -300%; }
+}
+
+
+
+nav a{
+	list-style: none;
+	font-size: 30px;
+	display: inline-grid;
+}
+nav li{
+	background-color: #ffffa2;
+	width: 400px;
+	height: 100px;
+	color: black;
+	display: inline-grid;
+	border: 2px solid white;
+}
+nav li:hover{
+	text-decoration: line-through solid black;
+	background-color: #f7d547;
+	border: 3px solid white;
+	color: black;
+	display: inline-grid;
+	border-radius: 30% 30% 30% 30%;
+}

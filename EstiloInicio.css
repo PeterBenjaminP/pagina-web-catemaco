@@ -1,0 +1,94 @@
+*{
+	list-style: none;
+}
+
+div{
+	
+}
+.Cate{
+	font-style: italic;
+	width: 900px;
+	height: 45px;
+	text-align: center;
+	border-radius: 40px 15px 40px 15px;
+	background-color: #00ffcc;
+
+}
+.inf{
+	margin-left: 700px;
+	text-align: justify;
+}
+.inf2{
+	margin-left: 870px;
+	text-align: justify;	
+}
+
+.imagenes{
+	border-radius: 4px 20px 4px 20px;
+	margin-left: 1100px;
+	list-style-image: center;
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+	animation: secuencia 10s infinite;
+}
+@keyframes secuencia{
+	0%,20%{
+		background-image: url(fauna.jfif);
+		opacity: 1;
+	}
+	21%,24%{
+		opacity: 0.1;
+	}
+	25%, 45%{
+		background-image: url(plantita.jfif);
+		opacity: 1;
+	}
+	46%, 49%{
+		opacity: 0.1;
+	}
+	50%, 70%{
+		background-image: url(brujito.jfif);
+		opacity: 1;
+	}
+	71%, 74%{
+		opacity: 0.1%;
+	}
+	75%, 100%{
+		background-image: url(olmeca.jfif);
+		opacity: 1;
+	}
+
+}
+.yo{
+	text-align: center;
+	background-color: #73c6b6;
+}
+
+
+nav a{
+	font-size: 15px;
+	
+}
+
+
+nav li{
+	text-decoration: none;
+	background-color:#9bfab0;
+	width: 150px;
+	height: 30px;
+	color: yellow;
+	display: inline-grid;
+	text-align: center;
+	border: 1px solid white;
+}
+
+nav li:hover{
+	
+	border: 3px solid white;
+	color: red;
+	background-color: #b6fa9e;
+	
+	display: inline-grid;
+	text-align: center;
+}
